@@ -1,1 +1,1 @@
-0-current_working_directory
+the anwers is ,pwd
