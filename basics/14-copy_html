@@ -1,0 +1,2 @@
+#!/bin/bash
+cp -v /root/shell/basics *.html /root/shell
