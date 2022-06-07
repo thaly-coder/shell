@@ -1,2 +1,2 @@
 #!/bin/bash
-chmos ugo+x ./*
+chmos ugo+X ./*
