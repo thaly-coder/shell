@@ -1,0 +1,2 @@
+#!/bin/bahs
+find . -type d -empty | cut -f 2 -d "/"
