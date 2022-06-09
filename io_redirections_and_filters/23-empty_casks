@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -empty | cut -f 2 -d "/"
+find . -empty -printf "%f/n"
