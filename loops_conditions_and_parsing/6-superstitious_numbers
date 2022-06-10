@@ -21,9 +21,9 @@ while [ $i -lt 21 ] ; do
 
         ;;
        
-	"17"
+       "17")
 
-	echo "bad luck from Italy "
+	echo " bad luck from Italy "
 
         esac
 
