@@ -1,2 +1,2 @@
-#!/usr/bin/env bas
-id_ed25519.pub
+#!/usr/bin/env bash
+#ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIByfUN62ZXvoNWYJsfb0PWxFSHabqxfJlQnRsL77aL1t nathalyq.caicedo@gmail.com
