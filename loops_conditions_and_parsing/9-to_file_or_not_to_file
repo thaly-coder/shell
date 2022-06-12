@@ -3,13 +3,13 @@
 
 search=0
 
-for file in *; do 
+for file in * ;do
 
-if [ "$file" == "school" ]
+if [ "$file" == "schol" ]
 
 then
 
-let searh=0	
+let search=1
 
 echo 'school file exists'
 
@@ -25,23 +25,24 @@ echo 'school file is empty'
 
 fi
 
-if [ -f"$file" ]
+if [ -f "$file" ]
 
-then 
+then
 
 echo 'school is a regular file'
 
-fi 
-
 fi
+
+fi 
 
 done
 
 if [ $search -eq 0 ]
 
-then
+then 
 
 echo 'school file does not exist'
 
 fi
+
 
