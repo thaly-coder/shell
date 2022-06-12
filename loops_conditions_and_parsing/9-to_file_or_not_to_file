@@ -5,7 +5,7 @@ search=0
 
 for file in * ; do 
 
-if [ $file == "school" ]
+if [ "$file" == "school" ]
 
 then
 
