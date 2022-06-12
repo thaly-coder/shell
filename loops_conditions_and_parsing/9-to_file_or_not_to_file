@@ -5,11 +5,11 @@ search=0
 
 for file in * ; do 
 
-if [ $file == ""school"" ]
+if [ $file == "school" ]
 
 then
 
-let search=1
+	( search=1 )
 
 echo 'school file exists'
 
