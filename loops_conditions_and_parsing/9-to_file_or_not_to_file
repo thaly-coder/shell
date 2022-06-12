@@ -9,7 +9,7 @@ if [ $file == "school" ]
 
 then
 
-	( search=1 )
+(( searh=0))	
 
 echo 'school file exists'
 
