@@ -3,7 +3,7 @@
 
 search=0
 
-for file in * ; do 
+for file in *; do 
 
 if [ "$file" == "school" ]
 
@@ -25,7 +25,7 @@ echo 'school file is empty'
 
 fi
 
-if [ -f "$file" ]
+if [ -f"$file" ]
 
 then 
 
