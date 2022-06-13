@@ -3,7 +3,7 @@
 
 i=2
 
-while [$i -gt 0 ]; do
+while [ $i -gt 0 ]; do
 
 echo "To infinity and beyond"
 
