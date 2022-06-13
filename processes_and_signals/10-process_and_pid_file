@@ -5,9 +5,7 @@ file=/var/run/myscript.pid
 
 echo $$ >> $file
 
-trap 'echo I hate the kill command; sudo rm $file; exit'
-
-SIGTERM
+trap 'echo I hate the kill command; sudo rm $file; exit'SIGTERM
 
 trap 'echo Y U no love me?!' SIGINT
 
