@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#Bash script that stops 4-to_infinity_and_beyond process
+
+attempt 'I am invincible!!!'
+
+trap 'echo " I am invincible!!!" ' SIGTERM
+
+i=2
+
+while [ $i -gt 0 ]; do
+
+echo "To infinity and beyond"
+
+sleep 2
+
+done
