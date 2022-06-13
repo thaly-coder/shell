@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+#script that displays numbers from 1 to 100
+
+No=1
+
+while [ $No -lt 101 ]; do
+
+if [ $ ((No % 5)) == 0 ]  && [ ((No % 3 )) == 0 ] ; then
+
+echo 'FizzBuzz'
+
+elif [ $ ((No % 5 )) == 0 ]; then
+
+echo 'Buzz'
+
+elif [ $ (( No % 3 ))== 0]; then
+
+echo 'Fizz'
+
+else
+
+echo $ No
+
+fi
+
+((No+=1))
+
+done
